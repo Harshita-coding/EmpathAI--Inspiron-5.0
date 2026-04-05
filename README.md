@@ -85,16 +85,16 @@ Process new emails
 Reply automatically
 
 # Workflow:
-📥 Fetch unread emails using IMAP
-🔍 Analyze email using NLP:
+ Fetch unread emails using IMAP
+ Analyze email using NLP:
 Detect intent
 Detect tone
 Extract time & date
-🧵 (Optional) Summarize email thread for context
-🤖 Generate smart reply
-📤 Send response via SMTP
-📅 Schedule meeting if required
-💾 Save state for continuity
+ (Optional) Summarize email thread for context
+ Generate smart reply
+ Send response via SMTP
+ Schedule meeting if required
+ Save state for continuity
 
 # How It Works
 Fetch unread emails using IMAP
@@ -119,7 +119,7 @@ Smart scheduling bot
 Productivity tool
 AI-powered inbox management
 
-# 🔮 Future Improvements
+# Future Improvements
 Web dashboard UI
 Multi-user support
 Better spam detection (ML-based)
