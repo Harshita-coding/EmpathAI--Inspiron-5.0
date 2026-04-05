@@ -2,17 +2,6 @@
 ╔══════════════════════════════════════════════════════════════╗
 ║              EmpathAI — Final Production Version             ║
 ║                                                              ║
-║  Features:                                                   ║
-║  ✅ IMAP email reading (UNSEEN only, no duplicates)          ║
-║  ✅ VADER sentiment analysis (Positive/Negative/Urgent)      ║
-║  ✅ spaCy NLP (intent detection, entity extraction)          ║
-║  ✅ Google Calendar API (create real events)                 ║
-║  ✅ .ics fallback if Calendar API not configured             ║
-║  ✅ Persistent state (survives restarts)                     ║
-║  ✅ Open inbox — replies to all senders                      ║
-║  ✅ Tone-aware replies                                       ║
-║  ✅ Thread summarization (spaCy extractive NLP)              ║
-║                                                              ║
 ║  Install dependencies:                                       ║
 ║  pip install vaderSentiment spacy google-api-python-client   ║
 ║               google-auth-httplib2 google-auth-oauthlib      ║
@@ -63,8 +52,8 @@ log = logging.getLogger("EmpathAI")
 # ──────────────────────────────────────────────
 # ① CONFIGURATION  — edit only this section
 # ──────────────────────────────────────────────
-EMAIL_ADDRESS = "bprisha123@gmail.com"        #using real gmail and app password for demo
-EMAIL_PASSWORD = "nozt noma sslu hhzv"       # Gmail App Password (not your login password)
+EMAIL_ADDRESS = "harshitajain1803@gmail.com"
+EMAIL_PASSWORD = "lemm ykkk scut narl"       # Gmail App Password (not your login password)
 
 SPAM_KEYWORDS = [                              # still block obvious spam
     "unsubscribe", "click here", "buy now",
