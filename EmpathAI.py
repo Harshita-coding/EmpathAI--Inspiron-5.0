@@ -63,7 +63,7 @@ log = logging.getLogger("EmpathAI")
 # ──────────────────────────────────────────────
 # ① CONFIGURATION  — edit only this section
 # ──────────────────────────────────────────────
-EMAIL_ADDRESS = "bprisha123@gmail.com"
+EMAIL_ADDRESS = "bprisha123@gmail.com"        #using real gmail and app password for demo
 EMAIL_PASSWORD = "nozt noma sslu hhzv"       # Gmail App Password (not your login password)
 
 SPAM_KEYWORDS = [                              # still block obvious spam
